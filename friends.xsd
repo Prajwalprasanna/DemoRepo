@@ -9,10 +9,11 @@
 				<element name="friendsList" minOccurs = "5" maxOccurs = "unbounded">
 					<complexType>
 						<sequence>
-							<element name="name" type="string"></element>
+							<element name="friend" type="string"></element>
+							<element name="best_friend" type="string"></element>
 						</sequence>
 					</complexType>
-				</element>
+				</element>				
 			</sequence>
 		</complexType>
 	</element>

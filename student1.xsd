@@ -9,8 +9,8 @@
 				<element name="stuID">
 					<simpleType>
 						<restriction base="string">
-							<minLength value="0"></minLength>
-							<maxLength value="4"></maxLength>
+							<minLength value="8"></minLength>
+							<maxLength value="8"></maxLength>
 						</restriction>
 					</simpleType>
 				</element>
@@ -18,7 +18,7 @@
 				<element name="stuName">
 					<simpleType>
 						<restriction base="string">
-							<minLength value="0"></minLength>
+							<minLength value="10"></minLength>
 							<maxLength value="10"></maxLength>
 						</restriction>
 					</simpleType>
@@ -27,7 +27,7 @@
 				<element name="stuPhno">
 					<simpleType>
 						<restriction base="string">
-							<minLength value="0"></minLength>
+							<minLength value="10"></minLength>
 							<maxLength value="10"></maxLength>
 						</restriction>
 					</simpleType>
@@ -45,7 +45,7 @@
 				<element name="stuBranch">
 					<simpleType>
 						<restriction base="string">
-							<minLength value="0"></minLength>
+							<minLength value="10"></minLength>
 							<maxLength value="10"></maxLength>
 						</restriction>
 					</simpleType>
