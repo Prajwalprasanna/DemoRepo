@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/friends"
+	xmlns:tns="http://www.example.org/friends"
+	elementFormDefault="qualified">
+	<element name="root">
+		<complexType>
+			<sequence>
+				<element name="friendsList" minOccurs = "5" maxOccurs = "unbounded">
+					<complexType>
+						<sequence>
+							<element name="name" type="string"></element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

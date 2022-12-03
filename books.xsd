@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/books"
+	xmlns:tns="http://www.example.org/books" elementFormDefault="qualified">
+	<element name="books">
+		<complexType>
+			<sequence>
+				<element name="book">
+					<complexType>
+						<sequence>
+							<element name="author" type="string"></element>
+							<element name="price" type="double"></element>
+							<element name="pub_date" type="date"></element>
+						</sequence>
+					</complexType>
+				</element>
+
+				<element name="book">
+					<complexType>
+						<sequence>
+							<element name="publisher" type="string"></element>
+							<element name="state" type="string"></element>
+							<element name="country" type="string"></element>
+						</sequence>
+					</complexType>
+				</element>
+
+			</sequence>
+		</complexType>
+	</element>
+</schema>

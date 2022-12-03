@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:books xmlns:tns="http://www.example.org/books" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/books books.xsd ">
+  <tns:book>
+    <tns:author>tns:chetan Bhagat</tns:author>
+    <tns:price>500.00</tns:price>
+    <tns:pub_date>2000-09-05</tns:pub_date>
+  </tns:book>
+  <tns:book>
+    <tns:publisher>tns:Shakespeare</tns:publisher>
+    <tns:state>tns:Startford</tns:state>
+    <tns:country>tns:UK</tns:country>
+  </tns:book>
+</tns:books>

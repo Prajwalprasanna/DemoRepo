@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/EmployeeDetails"
+	xmlns:tns="http://www.example.org/EmployeeDetails"
+	elementFormDefault="qualified">
+	<element name="root">
+		<complexType>
+			<sequence>
+				<element name="iSteer" minOccurs="5" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="empid">
+								<simpleType>
+									<restriction base="string">
+										<minLength value="0"></minLength>
+										<maxLength value="4"></maxLength>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="ename" type="string"></element>
+							<element name="deptno" type="int"></element>
+							<element name="sal" type="double"></element>
+							<element name="job" type="string"></element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

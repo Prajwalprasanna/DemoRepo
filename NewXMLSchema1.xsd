@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/NewXMLSchema1"
+	xmlns:tns="http://www.example.org/NewXMLSchema1"
+	elementFormDefault="qualified">
+	<element name="iSteer">
+		<complexType>
+			<sequence>
+				<element name="empphno">
+					<simpleType>
+						<restriction base="string">
+							<length value="10"></length>
+						</restriction>
+					</simpleType>
+				</element>
+				<element name="empid">
+					<simpleType>
+						<restriction base="string">
+							<length value="5"></length>
+						</restriction>
+					</simpleType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

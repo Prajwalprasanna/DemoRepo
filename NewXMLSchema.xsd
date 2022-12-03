@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/NewXMLSchema"
+	xmlns:tns="http://www.example.org/NewXMLSchema"
+	elementFormDefault="qualified">
+	<element name="employee">
+		<complexType>
+			<sequence>
+				<element name="empid">
+					<simpleType>
+						<restriction base="string">
+							<minLength value="0"></minLength>
+							<maxLength value="5"></maxLength>
+						</restriction>
+					</simpleType>
+				</element>
+				<element name="ename" type="string"></element>
+				<element name="empsal" type="double"></element>
+				<element name="empphno" type="string"></element>
+				<element name="empdeptname" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

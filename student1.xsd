@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/student1"
+	xmlns:tns="http://www.example.org/student1"
+	elementFormDefault="qualified">
+	<element name="student">
+		<complexType>
+			<sequence>
+				<element name="stuID">
+					<simpleType>
+						<restriction base="string">
+							<minLength value="0"></minLength>
+							<maxLength value="4"></maxLength>
+						</restriction>
+					</simpleType>
+				</element>
+				
+				<element name="stuName">
+					<simpleType>
+						<restriction base="string">
+							<minLength value="0"></minLength>
+							<maxLength value="10"></maxLength>
+						</restriction>
+					</simpleType>
+				</element>
+				
+				<element name="stuPhno">
+					<simpleType>
+						<restriction base="string">
+							<minLength value="0"></minLength>
+							<maxLength value="10"></maxLength>
+						</restriction>
+					</simpleType>
+				</element>
+				
+				<element name="stuAge">
+					<simpleType>
+						<restriction base="int">
+							<minInclusive value="20"></minInclusive>
+							<maxInclusive value="35"></maxInclusive>
+						</restriction>
+					</simpleType>
+				</element>
+				
+				<element name="stuBranch">
+					<simpleType>
+						<restriction base="string">
+							<minLength value="0"></minLength>
+							<maxLength value="10"></maxLength>
+						</restriction>
+					</simpleType>
+				</element>
+				
+			</sequence>
+		</complexType>
+	</element>
+</schema>
